@@ -10,29 +10,38 @@
   <style>
     body {
       font-family: "Helvetica Neue", Helvetica, sans-serif;
-      margin: 20%;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+    }
+    #wrapper {
+      width: 60%;
+      min-width: 30rem;
+      max-width: 45rem;
+      margin: 0rem auto;
+      margin-top: calc(clamp(0rem, 40% - 12rem, 50vh - 6rem));
     }
     header {
       float: right;
     }
     em {
       font-style: inherit;
-      color: #659;
-      transition: color 0.8s;
+      color: #759;
+      transition: color 1.2s;
     }
     p:hover > em {
-      color: #91a;
+      color: #b19;
     }
   </style>
 </head>
 
 <body>
+<div id=wrapper>
 
-<header>Personal page</header>
+<header>ageneric.github.io</header>
 
 <nav>
-  <a href="https://github.com/ageneric/">github</a>
-  <a href="https://www.linkedin.com/in/kevin-gao-627855245/">linkedin</a>
+  <a href="https://github.com/ageneric/">GitHub</a>
+  <a href="https://www.linkedin.com/in/kevin-gao-627855245/">LinkedIn</a>
 </nav>
 
 <main>
@@ -41,11 +50,12 @@
   </p>
   <p>
     I'm interested in applications of computational modelling, like in <em>quantitative trading</em>,
-    <em style="transition-delay:0.4s">quantum physics</em>, and <em style="transition-delay:0.8s">climate technology</em>.
+    <em style="transition-delay:0.6s">quantum physics</em>, and <em style="transition-delay:1.2s">climate technology</em>.
   </p>
 </main>
 
 <footer>Last updated April 2023.</footer>
 
+</div>
 </body>
-</html> 
+</html>
